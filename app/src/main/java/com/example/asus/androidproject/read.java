@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import android.widget.Button;
 import com.joanzapata.pdfview.PDFView;
 
 
@@ -30,6 +31,8 @@ public class read extends AppCompatActivity {
                  // toggle night mode
                 .load();
         Log.v("cc","kaishi");
+        Button button;
+        Button change;
 
 
     }
